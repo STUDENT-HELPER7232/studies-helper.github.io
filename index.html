@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='manifest' href='/manifest.json'>
+        <!-- Favicon Related Stuff Begin -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Favicon Related Stuff End -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Student-Helper</title>
+        <meta name="description" content="Get All Your Book Solutions Here">
+        <meta name="author" content="Anurag Rai">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <link type="text/css" rel="stylesheet" href="css/index.css" media="screen,projection" />
+        <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+        <meta name="theme-color" content="#f5f6fa">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:500,600,700" rel="stylesheet">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body style="background-color: #EEE9E5">
+        <div>
+            <div class="row">
+                <div id="profileColumn" class="col s12 l2 center">
+                    <img id="profileImage" src="./images/main.png" class="z-depth-3 circle responsive-img" />                    
+                    <h2 id="WebName" class="center-align">Student Helper</h2>
+                    <h4 id="description" class="center-align">One Stop To Get Solutions</h4>
+                    
+                </div>
+                
+                <div id="web-code" class="col s15 m12 l8">
+                    
+                    <div id="codeTitle">
+                        <p id="codeFtext">Books</p>
+                        <p id="firstCategoryText">List Of Books</p>
+                    </div>
+                    
+                    <div class="row" id="bookItemContainer">
+                        <!-- Book cards are dynamically generated from books.json! -->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="sw.js"></script>
+    </body>
+</html>
