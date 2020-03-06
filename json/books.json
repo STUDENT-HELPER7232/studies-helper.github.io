@@ -3,37 +3,43 @@
         "name": "Beehive:9",
         "description": "Beehive Class 9 Solutions.",
         "image": "images/beehive-9.webp",
-        "link": "http://www.ncert.nic.in/ncerts/l/iebe1dd.zip"
+        "link-book": "http://www.ncert.nic.in/ncerts/l/iebe1dd.zip",
+        "link-sol": ""
 	},
     {
         "name": "Geography:9",
         "description": "Contemporary India-1 Solutions.",
         "image": "images/geo-9.webp",
-        "link": "http://www.ncert.nic.in/ncerts/l/iess1dd.zip"
+        "link-book": "http://www.ncert.nic.in/ncerts/l/iess1dd.zip",
+        "link-sol": ""
 	},
     {
         "name": "Civics:9",
         "description": "Democratic Politics-1 Solutions.",
         "image": "images/civics-9.webp",
-        "link": "http://www.ncert.nic.in/ncerts/l/iess4dd.zip"
+        "link-book": "http://www.ncert.nic.in/ncerts/l/iess4dd.zip",
+        "link-sol": ""
 	},
     {
         "name": "Economics:9",
         "description": "Economics Class-IX Solutions.",
         "image": "images/economics-9.webp",
-        "link": "http://www.ncert.nic.in/ncerts/l/iess2dd.zip"
+        "link-book": "http://www.ncert.nic.in/ncerts/l/iess2dd.zip",
+        "link-sol": ""
 	},
     {
         "name": "History:9",
         "description": "India and the Contemporary World-I Solutions.",
         "image": "images/history-9.webp",
-        "link": "http://www.ncert.nic.in/ncerts/l/iess3dd.zip"
+        "link-book": "http://www.ncert.nic.in/ncerts/l/iess3dd.zip",
+        "link-sol": ""
         },
     {
         "name": "Science:9",
         "description": "Science Class-IX Solutions",
         "image": "images/science-9.webp",
-        "link": "http://www.ncert.nic.in/ncerts/l/iesc1dd.zip"
+        "link-book": "http://www.ncert.nic.in/ncerts/l/iesc1dd.zip",
+        "link-sol": ""
 	    
              }
 ]
